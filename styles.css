@@ -34,17 +34,40 @@
     justify-content: right;
 }
 
+.btn1 {
+    /* width: 164px; */
+    /* height: 44px; */
+    padding: 12px 16px 12px 16px;
+    background-color: #469165;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    justify-content: right;
+}
+
 .btn2 {
     padding: 12px 16px 12px 16px;
     background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: green;
+    border: 1px solid red;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 } /* ===BUTTON Style End=== */
+
+.cap-color {
+    color: #30B868;
+} 
+
+.cap-color-white {
+    color: red;
+} /* ===H1 titles Style End=== */
 
 
 
@@ -98,4 +121,63 @@ nav .nav-list li a:hover {
     color: #469165;
 } /* ===NAV Style End=== */
 
+
+/* **Header Styles Start** */
+
+#big-banner {
+    max-width: 2560px;
+    /* border: 1px solid red; */
+    background: url(assets/hero-bg.png);
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.top-title {
+    font-size: 16px;
+    font-weight: medium;
+    color: #30B868;
+    margin-bottom: 16px;
+    /* border: 1px solid red;  */
+    background-color: #ffffff;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 1000px;
+}
+
+.title-div {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban-desc {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center
+}
+
+.main-title {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    max-width: 800px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
 
