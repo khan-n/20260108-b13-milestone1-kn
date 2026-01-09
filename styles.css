@@ -187,6 +187,69 @@ nav .nav-list li a:hover {
     /* border: 1px solid red; */
 } /* Banner Styles End */
 
+.notes-content {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+.note-title {
+    color: #001931;
+}
+
+.note-msg {
+    color: #627382;
+}
+
+.card-set img {
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    width: 322px;
+    height: auto;
+}
+
+.card1 {
+    width: 322px;
+    height: 300px;
+border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.img-divc2 {
+    display: flex;
+    justify-content: center;
+    width: 322px;
+    height: auto;
+}
+
+
+
+.card-set {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.card-set h2 {
+    text-align: center;
+}
+
+.card1 img {
+    justify-content: center;
+    display: flex;
+}
 
 
 /* SBS Style Start */
@@ -196,8 +259,9 @@ nav .nav-list li a:hover {
     margin-left: 120px;
     margin-right: 120px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
-
 
 #sbs-sec .sbs-content {
     display: flex;
@@ -207,6 +271,7 @@ nav .nav-list li a:hover {
 #sbs-sec .sbs-list {
     list-style: none;
 }
+
 
 
 /* could have done it way earlier but bad luck. will carry on trying and better luck next time. */
