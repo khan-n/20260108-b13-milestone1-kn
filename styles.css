@@ -246,6 +246,10 @@ border: 1px solid red;
     text-align: center;
 }
 
+.card-set p {
+    text-align: center;
+}
+
 .card1 img {
     justify-content: center;
     display: flex;
@@ -272,6 +276,18 @@ border: 1px solid red;
     list-style: none;
 }
 
+#thinkit {
+    border: 1px solid red;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.think-content h2 {
+    text-align: center;
+}
 
 
 /* could have done it way earlier but bad luck. will carry on trying and better luck next time. */
