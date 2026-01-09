@@ -18,12 +18,13 @@
   font-optical-sizing: auto;
 } /* Font Styles End */
 
+
 /* **BUTTON Style Start** */
 .btn {
     /* width: 164px; */
     /* height: 44px; */
     padding: 12px 16px 12px 16px;
-    background-color: #469165;
+    background-color: #30B868;
     color: white;
     border: none;
     border-radius: 4px;
@@ -38,7 +39,7 @@
     /* width: 164px; */
     /* height: 44px; */
     padding: 12px 16px 12px 16px;
-    background-color: #469165;
+    background-color: #30B868;
     color: white;
     border: none;
     border-radius: 4px;
@@ -52,13 +53,18 @@
 .btn2 {
     padding: 12px 16px 12px 16px;
     background-color: transparent;
-    color: green;
-    border: 1px solid red;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+}
+
+.btn2:hover {
+  color: #30B868;
+  border-color: #30B868;
 } /* ===BUTTON Style End=== */
 
 .cap-color {
@@ -66,7 +72,7 @@
 } 
 
 .cap-color-white {
-    color: red;
+    color: #ffffff;
 } /* ===H1 titles Style End=== */
 
 
@@ -118,14 +124,14 @@ nav .nav-list li a {
 }
 
 nav .nav-list li a:hover {
-    color: #469165;
+    color: #30B868;
 } /* ===NAV Style End=== */
 
 
-/* **Header Styles Start** */
+/* **Banner Styles Start** */
 
 #big-banner {
-    max-width: 2560px;
+    /* max-width: 2560px; */
     /* border: 1px solid red; */
     background: url(assets/hero-bg.png);
     height: 674px;
@@ -164,7 +170,7 @@ nav .nav-list li a:hover {
     /* border: 1px solid red; */
     font-size: 18px;
     font-weight: 400;
-    color: red;
+    color: #ffffff;
     margin-top: 24px;
     margin-bottom: 32px;
     line-height: 1.6;
@@ -179,5 +185,28 @@ nav .nav-list li a:hover {
     max-width: 800px;
     text-align: center;
     /* border: 1px solid red; */
+} /* Banner Styles End */
+
+
+
+/* SBS Style Start */
+
+#sbs-sec .sbs-container {
+    border: 1px solid red;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: center;
 }
 
+
+#sbs-sec .sbs-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#sbs-sec .sbs-list {
+    list-style: none;
+}
+
+
+/* could have done it way earlier but bad luck. will carry on trying and better luck next time. */
