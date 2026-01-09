@@ -278,15 +278,37 @@ border: 1px solid red;
 
 #thinkit {
     border: 1px solid red;
+    margin-top: 100px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 100px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: #F7F6F2;
+    height: 500px;
+    border-radius: 12px;
 }
 
 .think-content h2 {
     text-align: center;
+}
+
+
+#footerbg {
+    background-color: #001931;
+    height: 350px;
+}
+
+.footertxt{
+    text-align: center;
+    padding-top: 300px;
+    color: #FAFAFA;
+}
+
+.ftrlogo {
+    display: flex;
+    border-left: 120px solid transparent;
 }
 
 
